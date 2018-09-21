@@ -3,19 +3,19 @@
 
 ## 登录界面
 
-![登录界面](C:\Users\14455\Desktop\login.png)
+![登录界面](https://github.com/ichzx/InfoManager/blob/master/images/login.png)
 
 ## 注册界面
 
-![注册界面](C:\Users\14455\Desktop\register.png)
+![注册界面](https://github.com/ichzx/InfoManager/blob/master/images/register.png)
 
 ## 主界面
 
-![主界面](C:\Users\14455\Desktop\manage.png)
+![主界面](https://github.com/ichzx/InfoManager/blob/master/images/manage.png)
 
 ## 修改用户信息
 
-![修改](C:\Users\14455\Desktop\update.png)
+![修改](https://github.com/ichzx/InfoManager/blob/master/images/update.png)
 
 
 
