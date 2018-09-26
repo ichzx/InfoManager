@@ -13,10 +13,12 @@
 
 ![主界面](https://github.com/ichzx/InfoManager/blob/master/images/new_manage.png)
 
-## 修改用户信息
+## 添加用户信息
 
-![修改](https://github.com/ichzx/InfoManager/blob/master/images/new_update.png)
+![添加](https://github.com/ichzx/InfoManager/blob/master/images/new_add.png)
 
+## 搜索用户
+![搜索](https://github.com/ichzx/InfoManager/blob/master/images/new_search.png)
 
 
 # 关于项目
