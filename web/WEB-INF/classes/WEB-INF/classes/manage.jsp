@@ -9,61 +9,59 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <title>管理界面</title>
 </head>
 <body>
 <form action="<%=request.getContextPath()%>/search.udo" method="post">
-    <center>
-        <table border="" style="margin-top:50px; padding:30px">
-            <tr>
-                <td style="text-align: right">用户名：</td>
-                <td style="text-align: left"><input type="text" name="username"/></td>
-            </tr>
-            <tr>
-                <td style="text-align: right">地址：</td>
-                <td style="text-align: left"><input type="text" name="address"/></td>
-            </tr>
-            <tr>
-                <td style="text-align: right">电话：</td>
-                <td style="text-align: left"><input type="text" name="phone"/></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align: center">
-                    <input type="submit" name="search" value="搜索用户"/>
-                    <a href="<%=request.getContextPath()%>/add.jsp">添加用户</a>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align: center">
-                    <a href="<%=request.getContextPath()%>/logout.udo">注销用户</a>
-                </td>
-            </tr>
-        </table>
-    </center>
+        <div>
+            <div class="form-group">
+                <label style="margin-left: 10px">Username:</label>
+                <input type="text" class="form-control" style="width: 200px; margin-left: 10px;" name="username"/>
+            </div>
+            <div class="form-group">
+                <label style="margin-left: 10px">Address</label>
+                <input type="text" class="form-control" style="width: 200px; margin-left: 10px" name="address"/>
+            </div>
+            <div class="form-group">
+                <label style="margin-left: 10px">Phone</label>
+                <input type="text" class="form-control" style="width: 200px; margin-left: 10px" name="phone"/>
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+            <a href="<%=request.getContextPath()%>/add.jsp" class="btn btn-success">Add User</a>
+            <a href="<%=request.getContextPath()%>/logout.udo" class="btn btn-warning">Log out</a>
+        </div>
 </form>
-<center>
-    <table border="" style="padding:30px; margin-top:50px" cellpadding="10" cellspacing="0">
-        <tr>
-            <td>id</td>
-            <td>用户名</td>
-            <td>地址</td>
-            <td>电话</td>
-            <td>简介</td>
-            <td>操作</td>
-        </tr>
-        <c:if test="${not empty users}">
-            <c:forEach var="user" items="${users}">
-                <tr>
-                    <td>${user.id}</td>
-                    <td>${user.username}</td>
-                    <td>${user.address}</td>
-                    <td>${user.phone}</td>
-                    <td>${user.info}</td>
-                    <td><a href="<%=request.getContextPath()%>/update.udo?id=${user.id}">修改</a> <a href="<%=request.getContextPath()%>/delete.udo?id=${user.id}">删除</a></td>
-                </tr>
-            </c:forEach>
-        </c:if>
-    </table>
-</center>
+        <table class="table table-borderless table-hover table-sm">
+            <thead class="thead-dark">
+            <tr>
+                <th>id</th>
+                <th>用户名</th>
+                <th>地址</th>
+                <th>电话</th>
+                <th>简介</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <c:if test="${not empty users}">
+                <c:forEach var="user" items="${users}">
+                    <tr class="table-light">
+                        <td>${user.id}</td>
+                        <td>${user.username}</td>
+                        <td>${user.address}</td>
+                        <td>${user.phone}</td>
+                        <td>${user.info}</td>
+                        <td><a href="<%=request.getContextPath()%>/update.udo?id=${user.id}">修改</a> <a href="<%=request.getContextPath()%>/delete.udo?id=${user.id}">删除</a></td>
+                    </tr>
+                </c:forEach>
+            </c:if>
+            </tbody>
+        </table>
 </body>
 </html>

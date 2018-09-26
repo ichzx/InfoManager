@@ -159,7 +159,7 @@ public class managerDao {
         try {
             conn = jdbcUtils.getConnection();
             String sql = "SELECT * FROM users WHERE username = ?;";
-            rows = qr.query(conn, sql, new ScalarHandler<>(), username);
+            rows = qr.query(conn, sql, new ScalarHandler<Integer>(), username);
         }catch (SQLException e){
             e.printStackTrace();
         }finally {

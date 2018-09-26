@@ -9,6 +9,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <title>修改</title>
 </head>
 <body>
@@ -18,35 +24,27 @@
     </center>
 </c:if>
 <form action="<%=request.getContextPath()%>/updateDone.udo?id=${userInfo.id}" method="post">
-    <center>
-        <table border="" style="margin-top: 50px; padding: 30px">
-            <tr>
-                <td style="text-align: right">用户名：</td>
-                <td style="text-align: left"><input type="text" name="username" value="${userInfo.username}"/></td>
-            </tr>
-            <tr>
-                <td style="text-align: right">密码：</td>
-                <td style="text-align: left"><input type="text" name="password" value="${userInfo.password}"/></td>
-            </tr>
-            <tr>
-                <td style="text-align: right">地址：</td>
-                <td style="text-align: left"><input type="text" name="address" value="${userInfo.address}"/></td>
-            </tr>
-            <tr>
-                <td style="text-align: right">电话：</td>
-                <td style="text-align: left"><input type="text" name="phone" value="${userInfo.phone}"/></td>
-            </tr>
-            <tr>
-                <td style="text-align: right">简介：</td>
-                <td style="text-align: left"><input type="text" name="info" value="${userInfo.info}"/></td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align: center">
-                    <input type="submit" name="add" value="修改"/>
-                </td>
-            </tr>
-        </table>
-    </center>
+    <div class="form-group">
+        <label style="margin-left: 10px">Username:</label>
+        <input type="text" class="form-control" style="width: 200px; margin-left: 10px" name="username" value="${userInfo.username}"/>
+    </div>
+    <div class="form-group">
+        <label style="margin-left: 10px">Password:</label>
+        <input type="password" class="form-control" style="width: 200px; margin-left: 10px" name="password" value="${userInfo.password}"/>
+    </div>
+    <div class="form-group">
+        <label style="margin-left: 10px">Phone</label>
+        <input type="text" class="form-control" style="width: 200px; margin-left: 10px" name="phone" value="${userInfo.phone}"/>
+    </div>
+    <div class="form-group">
+        <label style="margin-left: 10px">Address</label>
+        <input type="text" class="form-control" style="width: 200px; margin-left: 10px" name="address" value="${userInfo.address}"/>
+    </div>
+    <div class="form-group">
+        <label style="margin-left: 10px">Info</label>
+        <input type="text" class="form-control" style="width: 250px; margin-left: 10px" name="info" value="${userInfo.info}"/>
+    </div>
+    <button type="submit" class="btn btn-success" style="margin-left: 10px">Update</button>
 </form>
 </body>
 </html>

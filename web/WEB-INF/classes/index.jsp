@@ -9,36 +9,32 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <title>登录</title>
   </head>
   <body>
-  <center>
-      <h1>欢迎你</h1>
-  </center>
+  <h1 class="display-1">Welcome</h1>
   <c:if test="${not empty requestScope.message}">
       <center>
       <span style="color: red">${message}</span>
       </center>
   </c:if>
   <form action="<%=request.getContextPath()%>/login.udo" method="post">
-      <center>
-    <table border="" style="margin-top: 50px; padding: 30px">
-        <tr>
-            <td style="text-align: right">用户名：</td>
-            <td style="text-align: left"><input type="text" name="username"/></td>
-        </tr>
-        <tr>
-            <td style="text-align: right">密码：</td>
-            <td style="text-align: left"><input type="password" name="password"/></td>
-        </tr>
-        <tr>
-            <td colspan="2" style="text-align: center">
-                <input type="submit" name="login"/>
-                <a href="<%=request.getContextPath()%>/register.jsp">注册</a>
-            </td>
-        </tr>
-    </table>
-      </center>
+      <div class="form-group">
+          <label style="margin-left: 10px">Username:</label>
+          <input type="text" class="form-control" style="width: 200px; margin-left: 10px;" name="username"/>
+      </div>
+      <div class="form-group">
+          <label style="margin-left: 10px">Password:</label>
+          <input type="password" class="form-control" style="width: 200px; margin-left: 10px" name="password"/>
+      </div>
+      <button type="submit" class="btn btn-primary" style="margin-left: 10px">Login</button>
+      <a href="<%=request.getContextPath()%>/register.jsp" class="btn btn-success">Register</a>
   </form>
   </body>
 </html>
