@@ -47,35 +47,6 @@
     </div>
     <button type="submit" class="btn btn-success" style="margin-left: 10px">Register</button>
     </div>
-    <%--<center>--%>
-    <%--<table border="" style="margin-top: 50px; padding: 30px">--%>
-        <%--<tr>--%>
-            <%--<td style="text-align: right">用户名：</td>--%>
-            <%--<td style="text-align: left"><input type="text" name="username"/></td>--%>
-        <%--</tr>--%>
-        <%--<tr>--%>
-            <%--<td style="text-align: right">密码：</td>--%>
-            <%--<td style="text-align: left"><input type="password" name="password"/></td>--%>
-        <%--</tr>--%>
-        <%--<tr>--%>
-            <%--<td style="text-align: right">电话：</td>--%>
-            <%--<td style="text-align: left"><input type="text" name="phone"/></td>--%>
-        <%--</tr>--%>
-        <%--<tr>--%>
-            <%--<td style="text-align: right">地址：</td>--%>
-            <%--<td style="text-align: left"><input type="text" name="address"/></td>--%>
-        <%--</tr>--%>
-        <%--<tr>--%>
-            <%--<td style="text-align: right">简介：</td>--%>
-            <%--<td style="text-align: left"><input type="text" name="info"/></td>--%>
-        <%--</tr>--%>
-        <%--<tr>--%>
-            <%--<td colspan="2" style="text-align: center">--%>
-                <%--<input type="submit" name="register" value="注册"/>--%>
-            <%--</td>--%>
-        <%--</tr>--%>
-    <%--</table>--%>
-    <%--</center>--%>
 </form>
 </body>
 </html>

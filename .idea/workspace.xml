@@ -7,37 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13ab85b-94ad-4614-a936-2f759be15715" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/697e93dc-1e3d-41a2-b861-9ff43fc96b5d.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/c16ac831-63a1-42ad-833c-b3620878dc98.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/reed/InfoManager/utils/jdbcUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-dbutils-1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/servlet-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/reed/InfoManager/dao/managerDao.java" afterPath="$PROJECT_DIR$/src/com/reed/InfoManager/dao/managerDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/add.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/error.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/manage.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/manage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/register.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/update.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/update.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/add.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/register.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/classes/update.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/add.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/error.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/manage.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/manage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/register.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/register.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/update.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/update.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/add.jsp" afterPath="$PROJECT_DIR$/web/add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/error.jsp" afterPath="$PROJECT_DIR$/web/error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manage.jsp" afterPath="$PROJECT_DIR$/web/manage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/register.jsp" afterPath="$PROJECT_DIR$/web/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/update.jsp" afterPath="$PROJECT_DIR$/web/update.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -548,12 +523,12 @@
       <workItem from="1537419583712" duration="14017000" />
       <workItem from="1537490932899" duration="12600000" />
       <workItem from="1537582539318" duration="72000" />
-      <workItem from="1537943713980" duration="5450000" />
+      <workItem from="1537943713980" duration="5894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59086000" />
+    <option name="totallyTimeSpent" value="59530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="7" />

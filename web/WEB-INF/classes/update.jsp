@@ -45,35 +45,6 @@
         <input type="text" class="form-control" style="width: 250px; margin-left: 10px" name="info" value="${userInfo.info}"/>
     </div>
     <button type="submit" class="btn btn-success" style="margin-left: 10px">Update</button>
-    <%--<center>--%>
-        <%--<table border="" style="margin-top: 50px; padding: 30px">--%>
-            <%--<tr>--%>
-                <%--<td style="text-align: right">用户名：</td>--%>
-                <%--<td style="text-align: left"><input type="text" name="username" value="${userInfo.username}"/></td>--%>
-            <%--</tr>--%>
-            <%--<tr>--%>
-                <%--<td style="text-align: right">密码：</td>--%>
-                <%--<td style="text-align: left"><input type="text" name="password" value="${userInfo.password}"/></td>--%>
-            <%--</tr>--%>
-            <%--<tr>--%>
-                <%--<td style="text-align: right">地址：</td>--%>
-                <%--<td style="text-align: left"><input type="text" name="address" value="${userInfo.address}"/></td>--%>
-            <%--</tr>--%>
-            <%--<tr>--%>
-                <%--<td style="text-align: right">电话：</td>--%>
-                <%--<td style="text-align: left"><input type="text" name="phone" value="${userInfo.phone}"/></td>--%>
-            <%--</tr>--%>
-            <%--<tr>--%>
-                <%--<td style="text-align: right">简介：</td>--%>
-                <%--<td style="text-align: left"><input type="text" name="info" value="${userInfo.info}"/></td>--%>
-            <%--</tr>--%>
-            <%--<tr>--%>
-                <%--<td colspan="2" style="text-align: center">--%>
-                    <%--<input type="submit" name="add" value="修改"/>--%>
-                <%--</td>--%>
-            <%--</tr>--%>
-        <%--</table>--%>
-    <%--</center>--%>
 </form>
 </body>
 </html>
