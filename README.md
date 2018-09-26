@@ -1,29 +1,21 @@
 # InfoManager简单介绍
-<<<<<<< HEAD
-
 学习了接近半个月的 java web 的入门内容，包括 servlet、jsp、jstl标签等，于是便做了一个简单的 java web 项目，就是一个用户信息管理系统，包括了用户登录、注册、模糊查询、添加新用户、修改、删除等基本的内容。
 
-=======
-学习了接近半个月的 java web 的入门内容，包括 servlet、jsp、jstl标签等，于是便做了一个简单的 java web 项目，就是一个用户信息管理系统，包括了用户登录、注册、模糊查询、添加新用户、修改、删除等基本的内容。
-
-------
-
->>>>>>> 上传图片
 ## 登录界面
 
-![登录界面](C:\Users\14455\Desktop\login.png)
+![登录界面](https://github.com/ichzx/InfoManager/blob/master/images/login.png)
 
 ## 注册界面
 
-![注册界面](C:\Users\14455\Desktop\register.png)
+![注册界面](https://github.com/ichzx/InfoManager/blob/master/images/register.png)
 
 ## 主界面
 
-![主界面](C:\Users\14455\Desktop\manage.png)
+![主界面](https://github.com/ichzx/InfoManager/blob/master/images/manage.png)
 
 ## 修改用户信息
 
-![修改](C:\Users\14455\Desktop\update.png)
+![修改](https://github.com/ichzx/InfoManager/blob/master/images/update.png)
 
 
 
